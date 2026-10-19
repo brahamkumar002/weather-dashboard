@@ -283,7 +283,7 @@ function App() {
       : "N/A";
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 text-white">
+    <div className="flex min-h-screen flex-col bg-linear-to-br from-slate-950 via-slate-900 to-blue-950 text-white">
 
       {/* NAVIGATION BAR */}
       <nav className="border-b border-white/10 bg-slate-900/60 px-5 py-5 backdrop-blur-md sm:px-8">
@@ -455,7 +455,7 @@ function App() {
         {!loading && !weatherError && weather && (
           <>
             {/* MAIN TEMPERATURE CARD */}
-            <section className="relative mb-8 overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-sky-500/20 via-blue-500/10 to-slate-800/50 p-7 text-center shadow-2xl backdrop-blur-lg sm:p-12">
+            <section className="relative mb-8 overflow-hidden rounded-3xl border border-white/10 bg-linear-to-br from-sky-500/20 via-blue-500/10 to-slate-800/50 p-7 text-center shadow-2xl backdrop-blur-lg sm:p-12">
 
               {/* Background decoration */}
               <div

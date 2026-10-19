@@ -20,7 +20,7 @@ function WeatherCard({ icon, title, value, description }) {
             </h3>
 
             {/* Weather Metric Value */}
-            <p className="mt-2 break-words text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <p className="mt-2 wrap-break-words text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 {value ?? "N/A"}
             </p>
 
